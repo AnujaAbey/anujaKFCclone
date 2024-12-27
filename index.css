@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .circular-favicon {
+    width: 10px; /* Adjust as needed */
+    height: 10px; /* Adjust as needed */
+    border-radius: 50%;
+    overflow: hidden;
+}
+.circular-favicon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.custom-size{
+    height: 15px;
+    width:12px;
+}
+.fs{
+    font-size: 13px;
+    font-weight: 600;
+}
+.kfcLogo{
+    height: 50px;
+    width: 70px;
+}
+.navbar-brand{
+    margin-top: -30px;
+    margin-left: 100px;
+}
+.nav-item{
+    margin-top: -30px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;  
+}
+.nav-link2 {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 900px;
+    margin-right: 10px;
+    margin-top: -17px;
+}
+.custom-size1{
+    height: 25px;
+    width: 25px;
+}
+.nav-link2::after{
+    content: '';
+      position: absolute;
+      top: 50%;
+      right: -10px; /* Adjust the position to the right */
+      height: 20px; /* Vertical line height */
+      border-left: 2px solid rgb(65, 63, 63); /* White vertical line */
+      transform: translateY(-50%);
+}
+.nav-linkh{
+    margin-top: -15px;
+}
+.nav-link3{
+    margin-right: 220px;
+    margin-top: -19px;  
+}
+.custom-size2{
+height: 40px;
+width: 30px;
+margin-right: -500px;
+margin-left: 20px;
+    margin-top: -19px;  
+}
+
+@media (max-width: 768px) {
+    .element {
+      flex-direction: column; /* Adjust layout for smaller screens */
+    }
+  }
+  .card-title{
+    font-size: 12px;
+    font-weight:bold;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+  }
+  
+
+  .carousel-inner {
+    padding: 1em;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 20vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @media (min-width: 768px) {
+    .carousel-item {
+      margin-right: 0;
+      flex: 0 0 33.333333%;
+      display: block;
+    }
+    .carousel-inner {
+      display: flex;
+    }
+  }
+  .card .img-wrapper {
+      max-width: 100%;
+      height: 10em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .card img {
+      max-height: 100%;
+  }
+  @media (max-width: 767px) {
+    .card .img-wrapper {
+      height: 17em;
+    }
+  }
+
+  
+  
+
